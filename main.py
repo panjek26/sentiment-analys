@@ -6,7 +6,7 @@ import nltk
 
 #----------- A simple function to get user input
 def get_text():
-    input_text = st.text_input("Your comment: ", "I really like this product! It's awesome.")
+    input_text = st.text_input("Your comment: ", "Kamu Cantik")
     return input_text
 #-----------------------------------------------
 
