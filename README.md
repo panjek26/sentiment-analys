@@ -55,3 +55,17 @@ p(G) = (summary good comment)/(summary good comment + summary negative comment) 
 p(G) = 10/(10+5) = 0.667  <br />
 
 p(N) = 5/(5+10) = 0.333  <br />
+
+## Study Case
+
+Now suppose we have a comment “Dear Bad Donation”. We will determine whether this comment is good or not. <br />
+
+by multiplying the prior probability of a good comment with the likelihood of the words “dear” “bad” and “donation” in the good comment as below. <br />
+
+p(G) x p(Dear|Good) x p(Bad|Good) x p(Donation|Good) = 0.667 x 0 x 0.277 x 0.0185 = 0 <br />
+
+We count also for Negative Comment <br />
+
+p(N) x p(Dear|Negative) x p(Bad|Negative) x p(Donation|Negative) = 0.333 x 0.1 x 0.1 x 0.75 = 24.975 <br />
+
+So, we can say “Dear Bad Donation” is Negative Comment because p(G|”Dear Bad Donation”) = 0 < 24.975 = p(N|”Dear Bad Donation”) 
