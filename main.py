@@ -42,8 +42,6 @@ def main():
     st.sidebar.markdown("""
                     * URL removal
                     * @ Mention removal
-                    * Lemmatization
-                    * Tokenization
                     """)
     st.sidebar.text("")
     st.sidebar.text("Model: ")
