@@ -56,7 +56,7 @@ p(G) = 10/(10+5) = 0.667  <br />
 
 p(N) = 5/(5+10) = 0.333  <br />
 
-## Study Case
+## Case Study
 
 Now suppose we have a comment “Dear Bad Donation”. We will determine whether this comment is good or not. <br />
 
